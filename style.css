@@ -1,34 +1,58 @@
-body{
- color: navy; font-size: 5;
+
+nav {
+  color: #fff
+
 }
-
-nav{
- font-style: normal;
+*{
+     margin: 0;
+     padding: 0;
+     font-family : sans-serif;
 }
-
-div{background-color: lightgreen;}
-
-span{background-color:blue; color:white;}
-
-
-p {
- text-align: center;
- color: red;
- background-color: lightsteelblue;
+.container{
+    width: 100%;
+    height:100%;
+    background: #55d6aa;
 }
-
-h1
-(
- font-size: 3m;
-)
-
-.myClass
-{
-  
+.menu ul{
+   display: inline-flex;
+   margin: 50px;
 }
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #55d6aa;
+    cursor: pointer;
+}
+.banner{
+  width: 80%;
+  height: 70%;
+  top: 25%;
+  left: 130px;
+  position: absolute;
 
-myID
-{
-  font-size: 1m;
-  color: green;
+}
+.app-text{
+  width: 50%;
+  float: left;
+}
+.app-text h1{
+  font-size: 43px;
+  width: 640px;
+  position: relative;
+  margin-left: 40px;
+}
+.app-text p{
+  width: 650%px;
+  font-size:15px;
+  margin: 30px 0 30px 40px;
+  line-height: 25p;
+}
+.app-picture{
+  width:50%;
+  float: right;
+}
+.app-picture img{
+  width: 50%;
+
+
 }
